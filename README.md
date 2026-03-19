@@ -5,7 +5,8 @@
 [![UEFI](https://img.shields.io/badge/UEFI-2.7+-green.svg)](https://uefi.org/)
 [![Platform](https://img.shields.io/badge/platform-x64-lightgrey.svg)](https://en.wikipedia.org/wiki/X86-64)
 
-> 一款运行在 **UEFI Shell** 环境下的经典贪吃蛇游戏，纯 C 语言编写，无需操作系统即可运行！
+> 一款运行在 **UEFI Shell** 环境下的经典贪吃蛇游戏，纯 C 语言编写，无需操作系统即可运行！主要源码部分由kimi-k2.5 + Claude Code制作！
+
 
 [English](./README_EN.md) | 简体中文
 
@@ -26,10 +27,9 @@
 ---
 
 ## 📸 截图
-
-<img width="1024" height="793" alt="Snipaste_2026-03-19_07-30-51" src="https://github.com/user-attachments/assets/f3f9691f-8655-4c7b-8687-d51f082477ed" />
 <img width="1024" height="793" alt="Snipaste_2026-03-19_07-30-44" src="https://github.com/user-attachments/assets/56389cce-0bcb-4acf-9d2a-fb50d35fafea" />
 <img width="1024" height="793" alt="Snipaste_2026-03-19_07-30-02" src="https://github.com/user-attachments/assets/11721b1c-c69c-401f-bbf6-4cb5238e319c" />
+<img width="1024" height="793" alt="Snipaste_2026-03-19_07-30-51" src="https://github.com/user-attachments/assets/f3f9691f-8655-4c7b-8687-d51f082477ed" />
 
 ```
 ┌─────────────────────────────────────────────────────────────┬─────────────────┐
