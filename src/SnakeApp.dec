@@ -1,0 +1,23 @@
+## @file SnakeApp.dec
+# Snake Game Package for UEFI Shell
+#
+#
+
+[Defines]
+  DEC_SPECIFICATION              = 0x00010005
+  PACKAGE_NAME                   = SnakeApp
+  PACKAGE_UNI_FILE               = SnakeApp.uni
+  PACKAGE_GUID                   = 2B4F5420-2C5A-4B8C-A1E3-7D8F9A6B5C4D
+  PACKAGE_VERSION                = 1.0
+
+[Includes]
+  .
+
+[LibraryClasses]
+
+[Guids]
+  gSnakeAppGuid = { 0x2B4F5420, 0x2C5A, 0x4B8C, { 0xA1, 0xE3, 0x7D, 0x8F, 0x9A, 0x6B, 0x5C, 0x4D } }
+
+[Protocols]
+  gEfiGraphicsOutputProtocolGuid = { 0x9042A9DE, 0x23DC, 0x4A38, { 0x96, 0xFB, 0x7A, 0xDE, 0xD0, 0x80, 0x51, 0x6A } }
+  gEfiSimpleTextInProtocolGuid   = { 0x387477C1, 0x69C7, 0x11D2, { 0x8E, 0x39, 0x00, 0xA0, 0xC9, 0x69, 0x72, 0x3B } }

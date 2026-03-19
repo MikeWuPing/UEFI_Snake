@@ -1,0 +1,52 @@
+## @file SnakeApp.inf
+# Snake Game UEFI Application
+#
+#
+
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = SnakeApp
+  MODULE_UNI_FILE                = SnakeApp.uni
+  FILE_GUID                      = 4A6F7631-4E7B-4D8E-C3F5-9F0A8C7D6E5F
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = UefiMain
+
+[Sources]
+  Snake.c
+  Snake.h
+  Graphics.c
+  Graphics.h
+  Input.c
+  Input.h
+  Font.c
+  Font.h
+
+[Packages]
+  MdePkg/MdePkg.dec
+  SnakeApp/SnakeApp.dec
+
+[LibraryClasses]
+  UefiLib
+  UefiBootServicesTableLib
+  BaseMemoryLib
+  BaseLib
+  PrintLib
+  DebugLib
+  MemoryAllocationLib
+  UefiApplicationEntryPoint
+
+[Protocols]
+  gEfiGraphicsOutputProtocolGuid
+  gEfiSimpleTextInProtocolGuid
+
+[Guids]
+
+[Pcd]
+
+[Depex]
+  TRUE
+
+[BuildOptions]
+  MSFT:*_*_*_CC_FLAGS = /Od /Oi- /utf-8 /wd4459
+  GCC:*_*_*_DLINK_FLAGS = -Wl,--image-base=0x400000
