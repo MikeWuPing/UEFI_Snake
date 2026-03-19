@@ -30,7 +30,9 @@ English | [简体中文](./README.md)
 <img width="1024" height="793" alt="Snipaste_2026-03-19_07-30-44" src="https://github.com/user-attachments/assets/56389cce-0bcb-4acf-9d2a-fb50d35fafea" />
 <img width="1024" height="793" alt="Snipaste_2026-03-19_07-30-02" src="https://github.com/user-attachments/assets/11721b1c-c69c-401f-bbf6-4cb5238e319c" />
 <img width="1024" height="793" alt="Snipaste_2026-03-19_07-30-51" src="https://github.com/user-attachments/assets/f3f9691f-8655-4c7b-8687-d51f082477ed" />
+
 ```
+
 ┌─────────────────────────────────────────────────────────────┬─────────────────┐
 │  🟢                                                         │  贪吃蛇         │
 │                                                             │  ───────────────│
