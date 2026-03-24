@@ -7,7 +7,7 @@
 
 > A classic Snake game that runs in the **UEFI Shell** environment, written in pure C, no operating system required! Made by Kimi K2.5 + Claude Code！
 
-English | [简体中文](./README.md)
+English | [简体中文](README.md)
 
 ---
 
